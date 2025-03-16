@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #1a1a1a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1d428a, #c8102e);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.matches-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.match-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team {
+    text-align: center;
+    flex: 1;
+}
+
+.team img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.team h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.vs {
+    font-weight: bold;
+    color: #666;
+    margin: 0 10px;
+}
+
+.prediction {
+    margin-top: 20px;
+}
+
+.probability-bar {
+    height: 30px;
+    background: #f0f2f5;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+}
+
+.probability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: width 0.3s ease;
+}
+
+.probability.home {
+    background: linear-gradient(45deg, #1d428a, #2a5bbd);
+}
+
+.probability.away {
+    background: linear-gradient(45deg, #c8102e, #e31837);
+}
+
+.prediction-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.winner {
+    color: #1d428a;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .team img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .team h3 {
+        font-size: 1em;
+    }
+}

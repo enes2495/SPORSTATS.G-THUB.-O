@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Maç Tahminleri</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NBA Maç Tahminleri</h1>
+            <p id="current-date"></p>
+        </header>
+
+        <div class="matches-container">
+            <!-- Cavaliers - Hornets -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg" alt="Cavaliers">
+                        <h3>Cavaliers</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg" alt="Hornets">
+                        <h3>Hornets</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 64.76%">64.76%</div>
+                        <div class="probability away" style="width: 35.24%">35.24%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Cavaliers</span></p>
+                </div>
+            </div>
+
+            <!-- Jazz - Raptors -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg" alt="Jazz">
+                        <h3>Jazz</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg" alt="Raptors">
+                        <h3>Raptors</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 54.17%">54.17%</div>
+                        <div class="probability away" style="width: 45.83%">45.83%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Jazz</span></p>
+                </div>
+            </div>
+
+            <!-- Mavericks - Grizzlies -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg" alt="Mavericks">
+                        <h3>Mavericks</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg" alt="Grizzlies">
+                        <h3>Grizzlies</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 58.42%">58.42%</div>
+                        <div class="probability away" style="width: 41.58%">41.58%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Mavericks</span></p>
+                </div>
+            </div>
+
+            <!-- Timberwolves - Heat -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg" alt="Timberwolves">
+                        <h3>Timberwolves</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg" alt="Heat">
+                        <h3>Heat</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 65.8%">65.8%</div>
+                        <div class="probability away" style="width: 34.2%">34.2%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Timberwolves</span></p>
+                </div>
+            </div>
+
+            <!-- Thunder - Blazers -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg" alt="Thunder">
+                        <h3>Thunder</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg" alt="Blazers">
+                        <h3>Blazers</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 82.5%">82.5%</div>
+                        <div class="probability away" style="width: 17.5%">17.5%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Thunder</span></p>
+                </div>
+            </div>
+
+            <!-- Nuggets - Suns -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg" alt="Nuggets">
+                        <h3>Nuggets</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg" alt="Suns">
+                        <h3>Suns</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 63.2%">63.2%</div>
+                        <div class="probability away" style="width: 36.8%">36.8%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Nuggets</span></p>
+                </div>
+            </div>
+
+            <!-- Kings - Spurs -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg" alt="Kings">
+                        <h3>Kings</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg" alt="Spurs">
+                        <h3>Spurs</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 76.4%">76.4%</div>
+                        <div class="probability away" style="width: 23.6%">23.6%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Kings</span></p>
+                </div>
+            </div>
+
+            <!-- Clippers - Knicks -->
+            <div class="match-card">
+                <div class="teams">
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg" alt="Clippers">
+                        <h3>Clippers</h3>
+                    </div>
+                    <div class="vs">VS</div>
+                    <div class="team">
+                        <img src="https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg" alt="Knicks">
+                        <h3>Knicks</h3>
+                    </div>
+                </div>
+                <div class="prediction">
+                    <div class="probability-bar">
+                        <div class="probability home" style="width: 58.7%">58.7%</div>
+                        <div class="probability away" style="width: 41.3%">41.3%</div>
+                    </div>
+                    <p class="prediction-text">Tahmini Kazanan: <span class="winner">Clippers</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8 Mart Maçları -->
+        <div class="date-section">
+            <h2>8 Mart Maçları</h2>
+            <div class="matches-container">
+                <!-- Hornets - Nets -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg" alt="Hornets">
+                            <h3>Hornets</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg" alt="Nets">
+                            <h3>Nets</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 42.3%">42.3%</div>
+                            <div class="probability away" style="width: 57.7%">57.7%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Nets</span></p>
+                    </div>
+                </div>
+
+                <!-- Rockets - Pelicans -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg" alt="Rockets">
+                            <h3>Rockets</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg" alt="Pelicans">
+                            <h3>Pelicans</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 44.8%">44.8%</div>
+                            <div class="probability away" style="width: 55.2%">55.2%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Pelicans</span></p>
+                    </div>
+                </div>
+
+                <!-- Raptors - Wizards -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg" alt="Raptors">
+                            <h3>Raptors</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg" alt="Wizards">
+                            <h3>Wizards</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 58.3%">58.3%</div>
+                            <div class="probability away" style="width: 41.7%">41.7%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Raptors</span></p>
+                    </div>
+                </div>
+
+                <!-- Hawks - Pacers -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg" alt="Hawks">
+                            <h3>Hawks</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg" alt="Pacers">
+                            <h3>Pacers</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 48.6%">48.6%</div>
+                            <div class="probability away" style="width: 51.4%">51.4%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Pacers</span></p>
+                    </div>
+                </div>
+
+                <!-- Heat - Bulls -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg" alt="Heat">
+                            <h3>Heat</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg" alt="Bulls">
+                            <h3>Bulls</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 56.8%">56.8%</div>
+                            <div class="probability away" style="width: 43.2%">43.2%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Heat</span></p>
+                    </div>
+                </div>
+
+                <!-- Bucks - Magic -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg" alt="Bucks">
+                            <h3>Bucks</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg" alt="Magic">
+                            <h3>Magic</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 61.4%">61.4%</div>
+                            <div class="probability away" style="width: 38.6%">38.6%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Bucks</span></p>
+                    </div>
+                </div>
+
+                <!-- Warriors - Pistons -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg" alt="Warriors">
+                            <h3>Warriors</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg" alt="Pistons">
+                            <h3>Pistons</h3>
+                        </div>
+                    </div>
+                    <div class="prediction">
+                        <div class="probability-bar">
+                            <div class="probability home" style="width: 72.5%">72.5%</div>
+                            <div class="probability away" style="width: 27.5%">27.5%</div>
+                        </div>
+                        <p class="prediction-text">Tahmini Kazanan: <span class="winner">Warriors</span></p>
+                    </div>
+                </div>
+
+                <!-- Celtics - Lakers -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg" alt="Celtics">
+                            <h3>Celtics</h3>
+                        </div>
+                            <div class="vs">VS</div>
+                            <div class="team">
+                                <img src="https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg" alt="Lakers">
+                                <h3>Lakers</h3>
+                            </div>
+                        </div>
+                        <div class="prediction">
+                            <div class="probability-bar">
+                                <div class="probability home" style="width: 68.9%">68.9%</div>
+                                <div class="probability away" style="width: 31.1%">31.1%</div>
+                            </div>
+                            <p class="prediction-text">Tahmini Kazanan: <span class="winner">Celtics</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thunder - Nuggets -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg" alt="Thunder">
+                            <h3>Thunder</h3>
+                        </div>
+                            <div class="vs">VS</div>
+                            <div class="team">
+                                <img src="https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg" alt="Nuggets">
+                                <h3>Nuggets</h3>
+                            </div>
+                        </div>
+                        <div class="prediction">
+                            <div class="probability-bar">
+                                <div class="probability home" style="width: 51.2%">51.2%</div>
+                                <div class="probability away" style="width: 48.8%">48.8%</div>
+                            </div>
+                            <p class="prediction-text">Tahmini Kazanan: <span class="winner">Thunder</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mavericks - Suns -->
+                <div class="match-card">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg" alt="Mavericks">
+                            <h3>Mavericks</h3>
+                        </div>
+                            <div class="vs">VS</div>
+                            <div class="team">
+                                <img src="https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg" alt="Suns">
+                                <h3>Suns</h3>
+                            </div>
+                        </div>
+                        <div class="prediction">
+                            <div class="probability-bar">
+                                <div class="probability home" style="width: 53.8%">53.8%</div>
+                                <div class="probability away" style="width: 46.2%">46.2%</div>
+                            </div>
+                            <p class="prediction-text">Tahmini Kazanan: <span class="winner">Mavericks</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
